@@ -24,6 +24,6 @@ Pull requestler kabul edilir.Büyük değişiklikler için,lütfen önce neyi de
 
 [MIT](https://choosealicense.com/licenses/mit/)
 
-##*[Patika.dev](https://app.patika.dev/)**
+#[Patika.dev](https://app.patika.dev/)
 
-##*[Patika.dev Profilim](https://app.patika.dev/Biaars)**
+#[Patika.dev Profilim](https://app.patika.dev/Biaars)
