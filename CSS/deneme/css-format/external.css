@@ -1,0 +1,15 @@
+ /*******TEXT*******/
+ h3{
+    /* CSS  tekli yorum satırı formatıdır.*/
+    color: cadetblue;
+    /* google fonts css linki kullanabilirsin */
+    font-family: 'Open Sans', sans-serif;
+    font-size: 50px;
+    text-transform: uppercase;
+   
+    /*
+    ÇOKLU
+    YORUM
+    SATIRIDIR.
+    */
+}
