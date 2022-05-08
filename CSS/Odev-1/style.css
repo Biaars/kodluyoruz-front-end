@@ -1,0 +1,205 @@
+/* Header CSS code start*/
+.header {
+  position:relative;
+  width: 100%;
+  display: flex;
+  justify-content:right;
+  align-items: center;
+  background-color:rgb(236, 223, 230);
+}
+
+.header a {
+  color: rgb(123, 71, 118);
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  padding: 18px;
+  text-decoration: none;
+  font-size: 20px; 
+  line-height:10px;
+  border-radius: 4px;
+}
+
+.header a.logo {
+  width: 100%;
+  height: 100%;
+}
+
+.header a:hover {
+  background-color:#fcfcfc49;
+}
+/* Header CSS code end*/
+
+/*Banner code start*/
+.banner-field{
+  padding:165px;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:cover;
+  position: relative;
+}
+.banner-desc{
+  width: 300px;
+  height: 230px;
+  padding: 50px;
+  box-sizing: 15px;
+  background-color: #35113aa9;
+  border-radius: 7px;
+  color:#c3d2d6;
+  position: relative;
+  margin: auto;
+ 
+}
+.banner-desc>h4{
+ justify-items:center;
+}
+.banner-desc> h1{
+  color: #dac5df;
+}
+.banner-btn{
+  background-color: rgba(255, 255, 255, 0.518);
+	border: 2px solid rgba(143, 114, 131, 0.647);
+	border-radius:8px;
+	color: rgb(116, 84, 114);
+	padding: 16px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+  margin-top: 18px;
+	font-size: 14pt;
+	font-family:Verdana;
+
+	transition:all 0.4s;	
+	-webkit-transition:all 0.4s;
+	-moz-transition:all 0.4s;
+	-o-transition:all 0.5s;
+}
+.banner-btn:hover{
+	box-shadow: 0 4px 10px 0 rgb(182, 174, 174), 0 6px 10px 0 rgb(225, 216, 216);
+	}
+/*Banner code end*/
+
+/*Product area start*/
+
+.motto{
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 15pt;
+  color:#642777;
+}
+.box{
+  background-color: rgb(236, 223, 223);
+  text-align: center;
+  padding: 15px;
+}
+
+.box>.product-box{
+  padding: 10px;
+  margin-right: 80px;
+
+}
+.product-box {
+  margin: 25px;
+  border: 1px solid rgb(231, 222, 222);
+  border-radius: 8px;
+  float: left; /* Float işlemi sitedeki elementleri sıralar bu nedenle diğer elementlere temizleme işlemi yap.*/
+  width: 250px;
+  height: 350px;
+  background-color: rgb(235, 225, 225);
+  box-sizing: 40px;
+
+}
+.product-box>a>img{
+  border-radius:8px;
+}
+.product-box:hover {
+  border: 2px solid rgb(253, 236, 236);
+}
+
+.product-box > img {
+  float: left;
+  width: 100%; 
+ 
+}
+.product-box>h2{
+ text-align: center;
+ color: #77274f;
+}
+.box>i{
+  text-align: center;
+  color: #77274f;
+ }
+
+.desc {
+  font-style: italic;
+  text-align: center;
+  margin: 15px;
+}
+/*Product area end*/
+
+/*Crew area start in about page*/
+.crew>.box-ab{
+  padding: 8px;
+  margin-right: 100px;
+}
+
+.box-ab>a>img{
+  border-radius:8px;
+}
+.box-ab{
+  margin: 25px;
+  border: 1px solid rgb(231, 222, 222);
+  border-radius: 8px;
+  float: left; /* Float işlemi sitedeki elementleri sıralar bu nedenle diğer elementlere temizleme işlemi yap.*/
+  width: 250px;
+  height: 350px;
+  background-color: rgba(158, 152, 152, 0.348);
+  box-sizing: 40px;
+}
+.box-ab:hover {
+  border: 2px solid rgb(253, 236, 236);
+}
+
+.box-ab > img {
+  float: left;
+  width: 100%; 
+}
+.box-ab > h2{
+  color: #273b77f1;
+ }
+
+.crew{
+  text-align: center;
+  color: #35113aa9; 
+  background-color:rgba(164, 141, 165, 0.348);
+  padding: 15px;
+}
+/*Crew area end*/
+
+/*Contact area start*/
+.contact-field>a{
+  font-size: 30px;
+  color: #642777;
+  padding: 50px;
+  text-decoration: none;
+}
+.contact-area{
+ background-color: rgb(236, 223, 223);
+ text-align: center;
+ padding: 1px;
+
+}
+.contact-area>h2{
+  font-size: 30px;
+  text-transform: uppercase;
+  color:#642777;
+}
+/*Contact area end*/
+
+/*Footer area start*/
+.footer-area{
+  background-color:rgb(236, 223, 223);
+  color: #000000;
+  text-align: center;
+  padding: 12px;
+}
+/*Footer area end/
